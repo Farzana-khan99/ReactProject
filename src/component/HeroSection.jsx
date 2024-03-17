@@ -12,7 +12,7 @@ const HeroSection = () => {
             </h1>
           </div>
           <div className=" pt-10">
-            <img className=" w-full block  h-[70vh] object-contain" src="../../public/image/single-slide-1.webp" alt="img" />
+            <img className=" w-full block  h-[70vh] object-contain" src="/image/single-slide-1.webp" alt="img" />
           </div>
         </div>
       </div>
