@@ -35,16 +35,16 @@ const Footer = () => {
               <h3 className="text-[#313131] font-bold">FOLLOW US</h3>
               <ul className="leading-10  text-[#555252] font-medium">
                 <li className="hover:text-[#a749ff]  transition-all">
-                  <NavLink to="/">Facebook</NavLink>
+                  <NavLink to="#">Facebook</NavLink>
                 </li>
                 <li className="hover:text-[#a749ff]  transition-all">
-                  <NavLink to="/about">Instagram</NavLink>
+                  <NavLink to="#">Instagram</NavLink>
                 </li>
                 <li className="hover:text-[#a749ff]  transition-all">
-                  <NavLink to="/services">linkeden</NavLink>
+                  <NavLink to="https://www.linkedin.com/in/farzana-khan-526464268/">linkeden</NavLink>
                 </li>
                 <li className="hover:text-[#a749ff]  transition-all">
-                  <NavLink to="/services">GitHub</NavLink>
+                  <NavLink to="https://github.com/Farzana-khan99">GitHub</NavLink>
                 </li>
               </ul>
             </div>

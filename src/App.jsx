@@ -6,6 +6,8 @@ import About from "./view/About"
 import Services from "./view/Services"
 import Home from "./view/Home"
 import "./App.css";
+import Contact from "./view/Contact";
+import Login from "./view/Login";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/service" element={<Services/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
+      <Route path="/login" element={<Login/>}></Route>
      </Routes>
      <Footer/>
      </BrowserRouter>

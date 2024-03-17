@@ -14,7 +14,7 @@ const Navbar = () => {
           <NavLink to="/about">About</NavLink>
         </li>
         <li className="hover:text-[#a749ff] relative  transition-all">
-          <NavLink to="" className="flex items-center gap-1 ">Services<RiArrowDropDownLine className="text-2xl" />
+          <NavLink to="/service" className="flex items-center gap-1 ">Services<RiArrowDropDownLine className="text-2xl" />
           <NavMenu/>
            </NavLink>
         </li>
